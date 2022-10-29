@@ -1,0 +1,55 @@
+ 2035  git add main.cpp 
+ 2036  git commit -m "Initial commit"
+ 2037  echo Hello World > main.cpp 
+ 2038  git add main.cpp 
+ 2039  git commit -m "Farewell changed"
+ 2040  git remote add origin git@github.com:KrzucH/git-majonez.git
+ 2041  git push -u origin main
+ 2042  git push -u origin master
+ 2043  git branch cs
+ 2044  git checkout cs
+ 2045  git reset --hard HEAD^
+ 2046  gitk&
+ 2047  echo Goodbye Coders School > main.cpp 
+ 2048  git add main.cpp 
+ 2049  git commit -m "Greetings"
+ 2050  git checkout master
+ 2051  git merge cs
+ 2052  git status
+ 2053  git add main.cpp
+ 2054  git commit
+ 2055  git push origin cs
+ 2056  history | tail -n55 > history.txt
+ 2057  git add history.txt 
+ 2058  git commit -m "History added"
+ 2059  git push
+ 2060  cd
+ 2061  rm -rf git-majonez/
+ 2062  mkdir git-majonez
+ 2063  cd git-majonez/
+ 2064  git init
+ 2065  touch main.cpp
+ 2066  echo Goodbye World > main.cpp
+ 2067  git add main.cpp 
+ 2068  git commit -m "Initial commit"
+ 2069  echo Hello World > main.cpp
+ 2070  git add main.cpp 
+ 2071  git commit -m "Farewell changed"
+ 2072  gitk&
+ 2073  git remote add origin git@github.com:KrzucH/git-majonez.git
+ 2074  git push -u origin main
+ 2075  git push -u origin master
+ 2076  git checkout -b cs
+ 2077  git reset --hard HEAD^
+ 2078  echo Goodbye Coders School >main.cpp
+ 2079  git add main.cpp 
+ 2080  git commit -m "Greetings"
+ 2081  git push origin cs
+ 2082  git checkout master
+ 2083  git merge cs
+ 2084  git add main.cpp
+ 2085  git commit
+ 2086  git car main.cpp
+ 2087  git cat main.cpp
+ 2088  cat main.cpp
+ 2089  history | tail -n55 > history.txt
